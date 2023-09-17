@@ -8,6 +8,8 @@
 ![MSE obtained by using ARIMA model](https://github.com/ITER-SIH/Team-47/assets/114322228/301f37f3-0bd4-4887-abba-b906706ebb83)
 
 ## Avalanche prediction_SARIMA
+##Description:
+
 
 
 
