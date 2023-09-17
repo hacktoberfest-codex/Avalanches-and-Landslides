@@ -14,5 +14,8 @@ It holds the potential to safeguard lives and valuable assets in the face of thi
 
 
 
+## Graphical Representation of Training and Test data Accuracy
+![Avalanche_dataset_accuracy_graph](https://github.com/ITER-SIH/Team-47/assets/110783911/d07ae449-b44d-4b1b-a75c-f6a98b4776ac)
+
 
 
