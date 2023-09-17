@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Page</title>
+    <style>
+        body {
+            background-color: #333;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 107px;
+            padding: 70px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .search-box {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #latitude {
+            width: 45%;
+            padding: 10px;
+            border: none;
+            background-color: #444;
+            color: #fff;
+        }
+        #longitude {
+            width: 45%;
+            padding: 10px;
+            border: none;
+            background-color: #444;
+            color: #fff;
+            margin:5px;
+        }
+
+        .search-button {
+            background-color: #555;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .search-button:hover {
+            background-color: #666;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Location Search</h1>
+        <div class="search-box">
+            <input type="text" id="latitude" placeholder="Enter Latitude">
+            <input type="text" id="longitude" placeholder="Enter Longitude">
+            <button class="search-button" onclick="checkLocation()">Search</button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
